@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -tybe d ! -path . -print | wc -l
+find . -tybe d -not -name '.' | wc -l
